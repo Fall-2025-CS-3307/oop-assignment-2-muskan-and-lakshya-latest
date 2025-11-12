@@ -1,0 +1,5 @@
+/mnt/c/Users/siddh/OneDrive/Desktop/oop-assignment-2-muskan-and-lakshya-main/code/build/CMakeFiles/Assignment2.dir
+/mnt/c/Users/siddh/OneDrive/Desktop/oop-assignment-2-muskan-and-lakshya-main/code/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/siddh/OneDrive/Desktop/oop-assignment-2-muskan-and-lakshya-main/code/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/siddh/OneDrive/Desktop/oop-assignment-2-muskan-and-lakshya-main/code/build/CMakeFiles/Assignment2_autogen_timestamp_deps.dir
+/mnt/c/Users/siddh/OneDrive/Desktop/oop-assignment-2-muskan-and-lakshya-main/code/build/CMakeFiles/Assignment2_autogen.dir
