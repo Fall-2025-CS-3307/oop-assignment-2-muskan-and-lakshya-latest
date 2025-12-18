@@ -1,21 +1,23 @@
-#ifndef DB_H
-#define DB_H
-#include "Product.h"
-#include "Order.h"
+#pragma once
 #include <vector>
+#include "Product.h"
+#include "User.h"
+#include "Order.h"
 
 class DB {
-    DB() = default;
+private:
+    DB();                        // private ctor
+public:
+    static DB& getInstance();    // Singleton accessor
+
+    // delete copy/move
     DB(const DB&) = delete;
     DB& operator=(const DB&) = delete;
-public:
-    static DB& instance() {
-        static DB inst;
-        return inst;
-    }
 
-    std::vector<Product> products;
-    std::vector<Order> orders;
+    // your existing methods:
+    void addProduct(const Product& p);
+    std::vector<Product> getProducts() const;
+    // etc.
 };
-#endif
+
 
